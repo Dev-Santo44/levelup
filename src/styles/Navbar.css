@@ -1,0 +1,29 @@
+.Navbar{
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    font-size: 1.125rem;
+}
+
+/* for dekstop  */
+.icons{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+.icons, .logo, .avatar{
+    margin: 20px 10px;
+}
+.contain{
+    display: flex;
+    align-items: center;
+}

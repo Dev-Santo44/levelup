@@ -1,0 +1,10 @@
+.logoContainer{
+    display: block;
+    margin: auto;
+    width: 20%;
+    margin-top: 20px;
+}
+.logoContainer img{
+    width: 100%;
+    border-radius: 150px;
+}

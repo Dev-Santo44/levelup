@@ -1,0 +1,31 @@
+.formConatiner{
+    display: block;
+    margin: auto;
+    width: 15%;
+    background-color: rgb(255, 197, 197);
+    padding: 80px 50px;
+    border: 2px dashed red;
+    border-radius: 25px;
+}
+
+.formConatiner form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.formConatiner form input{
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.formConatiner form .btn{
+    margin-top: 20px;
+}
